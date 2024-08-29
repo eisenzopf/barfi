@@ -4,7 +4,7 @@ from typing import List, Dict, Union
 # import barfi components
 from .block_builder import Block
 from .compute_engine import ComputeEngine
-from .manage_schema import load_schema_name, load_schemas, save_schema
+from .manage_schema import load_schema_name, load_schemas, save_schema, delete_schema
 from .manage_schema import editor_preset
 
 import os
